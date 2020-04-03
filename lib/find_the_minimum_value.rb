@@ -9,7 +9,8 @@ def find_min_value(array)
     if min_value <= array[counter] do
       min_value = array[counter]
      
-  end counter += 1 
+  end 
+  counter += 1 
   end
   array[counter]
 end
