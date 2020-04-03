@@ -8,8 +8,8 @@ def find_min_value(array)
   while counter < array.length 
     if min_value <= array[counter] do
       min_value = array[counter]
-      counter += 1 
-  end
+     
+  end counter += 1 
   end
   array[counter]
 end
